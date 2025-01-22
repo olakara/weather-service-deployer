@@ -1,0 +1,6 @@
+services:
+  weather-service:
+    image: olakara/weather-service
+    ports:
+      - '80:8080'
+    restart: always
